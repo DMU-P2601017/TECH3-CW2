@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@font-face {
+  font-family: 'Finger Paint', cursive; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap');
+@font-face {
+  font-family: 'Fraunces', serif;
+}
+
+body, html {
+    text-align: center;
+    background-color: #171618;
+    margin: 0;
+}
+h1 {
+    font-family: 'Finger Paint', cursive;
+    font-weight: bold;
+    font-size: 600%;
+    color: #E2E4ED;
+    text-shadow: 2px 2px 10px #646464;
+    margin: 1%;
+  }
+
+  h2 {
+    font-family: 'Finger Paint', cursive;
+    font-size: 280%;
+    color: #35498D;
+    text-shadow: 2px 5px 2px #0C0707;
+    margin: 2%;
+    
+  }
+  
+  h3 {
+    font-family: 'Finger Paint';
+  }
+
+.Hallway {
+  background-image: url ('./images/hallwayBig.jpg');
+  width: 200px;
+  height: 200px;
+}
+
+
+.MainContent {
+    position: relative;
+    text-align: center;
+}
+
+.MainHeading {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Finger Paint', cursive;
+        font-weight: bold;
+        font-size: 600%;
+        color: #E2E4ED;
+        text-shadow: 2px 2px 10px #646464;
+        margin: 1%;
+      }
+
+.StartButton {
+        position: absolute;
+        top: 57%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        width: 1px 2px;
+        background-color: #E2E4ED;
+        padding: 2% 5%;
+        border-radius: 25px;
+        opacity: 0.5;
+        font-family: 'Finger Paint', cursive;
+        font-size: 170%;
+        color: #0035e1;
+        margin: 2%;
+
+}
+
+.RegularButton {
+  position: absolute;
+  top: 57%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 1px 2px;
+  background-color: #E2E4ED;
+  padding: 2% 5%;
+  border-radius: 25px;
+  opacity: 0.5;
+  font-family: 'Finger Paint', cursive;
+  font-size: 140%;
+  color: #0035e1;
+  margin: 2%;
+
+}
+
+.BackpackImg {
+  position: absolute;
+  top: 10%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+  padding: 2% 5%;
+}
+
+.HomeButtonImg {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2% 5%;
+}
+
+.Text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fraunces', serif;
+  font-size: 125%;
+  color: #E2E4ED;
+}
